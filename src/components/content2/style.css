@@ -58,3 +58,25 @@
     }
    
   }
+  
+@media only screen and (max-width: 400px) {
+    .services2 {
+        position: relative;
+        top: 230px;
+        left: 30px;
+    }
+    .otherCards2{
+      text-align: center;
+      width: 300px;
+      position: relative;
+      left: 18%;
+      top: 250px;
+    }
+    .card{
+        border: 0;
+    }
+    .line{
+        visibility: hidden;
+    }
+   
+  }

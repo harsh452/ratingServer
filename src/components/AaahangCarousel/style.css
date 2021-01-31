@@ -127,3 +127,66 @@ color: white;
   
   }
   }
+
+  @media only screen and (max-width: 400px) {
+    .img{
+        width: 140px;
+       height: 280px;
+   
+    } 
+    .android{
+      position: relative;
+      left: 9%;
+      top: 350px;
+      display: inline-block;
+    color: white;
+    width: 200px;
+    
+    }
+    .and{
+      height: 30px;
+    width: 30px;
+    
+    }
+    .imgDiv{
+       width: 140px;
+       height: 280px;
+       position: relative;
+       left: 40px;
+       top: 140px;
+      
+       transform: rotate(10deg);
+       display: inline-block;
+    }
+  
+   .img1{
+    display: inline-block;
+  height: 180px;
+  width: 280px;
+  position: relative;
+  left: 290px;
+  top: -120px;
+  
+   }
+   .letter{
+    position: relative;
+    bottom: 320px;
+    right: -2px;
+    display: inline-block;
+  
+  }
+  .ah1{
+    font-size: .8rem;
+    color: white;
+    font-family: 'Lobster', cursive;
+  
+  }
+  .ah2{
+    font-family: 'Lobster', cursive;
+    font-size: .9rem;
+    margin-top: -17px;
+    position: relative;
+    left: 50px;
+  
+  }
+  }

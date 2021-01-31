@@ -63,3 +63,25 @@ hr{
     }
    
   }
+  @media only screen and (max-width: 400px) {
+    .services {
+        position: relative;
+        top: 160px;
+        left: 30px;
+    }
+    .otherCards{
+      text-align: center;
+      width: 300px;
+      position: relative;
+      left: 16%;
+      top: 180px;
+
+    }
+    .card{
+        border: 0;
+    }
+    hr{
+        visibility: hidden;
+    }
+   
+  }

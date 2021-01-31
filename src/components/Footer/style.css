@@ -109,3 +109,41 @@ display: inline-block;
     font-size: 0.8rem;
 }
 }
+@media only screen and (max-width: 400px) {
+    .footer{
+        height: 240px;
+        width: 100%;
+        background-color: rgb(26, 27, 26)   ;
+        position: relative;
+        top: 400px;
+    }
+    .company{
+        position: relative;
+        left: 10px;
+        top: 20px;
+        display: inline-block;
+    }
+    .phone{
+        position: relative;
+        left: 65%;
+        top: -20px;
+        display: inline-block;
+    justify-content: center;
+    }
+    .aboutus{
+    position: relative;
+    left: 35%;
+    bottom: 130px;
+    font-size: .8rem;
+    display: inline-block;
+    
+    }
+    .it{
+        font-size: 0.8rem;
+        color: white;
+      }
+      h5{
+        color: white;
+        font-size: 0.8rem;
+    }
+    }
