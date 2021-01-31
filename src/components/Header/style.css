@@ -1,0 +1,9 @@
+.mr-auto{
+ position: relative;
+ left: 800px;
+ font-size: large;
+}
+.navbar{
+    background: linear-gradient(to right, #ffff00 0%, #ffffff 100%);
+
+}

@@ -1,0 +1,60 @@
+.services2{
+    position: relative;
+    left: 73%;
+    top: 180px;
+    display: inline-block;
+
+
+}
+.otherCards2{
+    position: relative;
+    top: 80px;
+    left: 90px;
+    display: inline-block;
+}
+
+
+.card{
+    
+    border: 0;
+    border-radius:  40px;
+}
+.img-2{
+ width: 60px;
+ height: 70px;
+ float: right;
+}
+
+.line{
+    width: 235px;
+    position: relative;
+    left: 200px;
+    top: 100px;
+    border: none; 
+    height: 0.5px; 
+    background: black; 
+    margin-bottom: 5px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .services2 {
+        position: relative;
+        top: 230px;
+        left: 30px;
+    }
+    .otherCards2{
+      text-align: center;
+      width: 300px;
+      position: relative;
+      left: 30%;
+      top: 250px;
+    }
+    .card{
+        border: 0;
+    }
+    .line{
+        visibility: hidden;
+    }
+   
+  }
