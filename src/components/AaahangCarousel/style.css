@@ -76,8 +76,105 @@ top: -10px;
 color: white;
 
 }
-
+/* for tab */
+@media only screen and (max-width: 1200px) {
+  .img{
+      width: 190px;
+     height: 340px;
  
+  } 
+  .android{
+    position: relative;
+    left: 15%;
+    top: 300px;
+    display: inline-block;
+  color: white;
+  width: 200px;
+  
+  }
+  .and{
+    height: 50px;
+  width: 50px;
+  
+  }
+  .imgDiv{
+     width: 140px;
+     height: 280px;
+     position: relative;
+     left: 40px;
+     top: 120px;
+    
+     transform: rotate(10deg);
+     display: inline-block;
+  }
+
+ .img1{
+  display: inline-block;
+height: 380px;
+width: 490px;
+position: relative;
+left: 40px;
+top: -170px;
+
+ }
+ .letter{
+  position: relative;
+  bottom: 400px;
+  left: -600px;
+  display: inline-block;
+
+}
+}
+
+@media only screen and (max-width: 1000px) {
+  .img{
+      width: 190px;
+     height: 340px;
+ 
+  } 
+  .android{
+    position: relative;
+    left: 15%;
+    top: 300px;
+    display: inline-block;
+  color: white;
+  width: 200px;
+  
+  }
+  .and{
+    height: 50px;
+  width: 50px;
+  
+  }
+  .imgDiv{
+     width: 140px;
+     height: 280px;
+     position: relative;
+     left: 40px;
+     top: 120px;
+    
+     transform: rotate(10deg);
+     display: inline-block;
+  }
+
+ .img1{
+  display: inline-block;
+height: 340px;
+width: 450px;
+position: relative;
+left: 150px;
+top: -150px;
+
+ }
+ .letter{
+  position: relative;
+  bottom: 380px;
+  left: -350px;
+  display: inline-block;
+
+}
+}
+
 /* for mob */
 @media only screen and (max-width: 700px) {
     .img{
@@ -112,18 +209,32 @@ color: white;
   
    .img1{
     display: inline-block;
-  height: 260px;
-  width: 350px;
+  height: 200px;
+  width: 300px;
   position: relative;
-  left: 230px;
+  left: 260px;
   top: -120px;
   
    }
    .letter{
     position: relative;
-    bottom: 350px;
-    right: 80px;
+    bottom: 330px;
+    left: -35px;
     display: inline-block;
+  
+  }
+  .ah1{
+    font-size: .8rem;
+    color: white;
+    font-family: 'Lobster', cursive;
+  
+  }
+  .ah2{
+    font-family: 'Lobster', cursive;
+    font-size: .9rem;
+    margin-top: -17px;
+    position: relative;
+    left: 50px;
   
   }
   }
@@ -136,7 +247,7 @@ color: white;
     } 
     .android{
       position: relative;
-      left: 9%;
+      left: 8%;
       top: 350px;
       display: inline-block;
     color: white;
@@ -171,7 +282,7 @@ color: white;
    .letter{
     position: relative;
     bottom: 320px;
-    right: -2px;
+    left: 17px;
     display: inline-block;
   
   }

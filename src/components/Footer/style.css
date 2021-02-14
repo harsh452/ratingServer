@@ -71,13 +71,92 @@ color: white;
 .model1{
     background-color: orange;
 }
+
+
+@media only screen and (max-width: 1200px) {
+    .footer{
+        height: 120px;
+        width: 100%;
+        background-color: rgb(26, 27, 26)   ;
+        position: relative;
+        top: 400px;
+        overflow-x: hidden;
+        overflow-y:hidden ;
+    }
+    .company{
+        position: relative;
+        left: 120px;
+        top: 40px;
+        display: inline-block;
+    }
+    .phone{
+    visibility: hidden;
+    }
+    .aboutus{
+    position: relative;
+    left: 75%;
+    bottom: 10px;
+    font-size: .8rem;
+    display: inline-block;
+    
+    }
+    .it{
+        font-size: 0.8rem;
+        color: white;
+      }
+      h5{
+        color: white;
+        font-size: 0.8rem;
+    }
+    }
+
+
+@media only screen and (max-width: 1000px) {
+    .footer{
+        height: 120px;
+        width: 100%;
+        background-color: rgb(26, 27, 26)   ;
+        position: relative;
+        top: 400px;
+        overflow-x: hidden;
+        overflow-y:hidden ;
+    }
+    .company{
+        position: relative;
+        left: 90px;
+        top: 40px;
+        display: inline-block;
+    }
+    .phone{
+    visibility: hidden;
+    }
+    .aboutus{
+    position: relative;
+    left: 70%;
+    bottom: 10px;
+    font-size: .8rem;
+    display: inline-block;
+    
+    }
+    .it{
+        font-size: 0.8rem;
+        color: white;
+      }
+      h5{
+        color: white;
+        font-size: 0.8rem;
+    }
+    }
+
 @media only screen and (max-width: 700px) {
 .footer{
-    height: 240px;
+    height: 120px;
     width: 100%;
     background-color: rgb(26, 27, 26)   ;
     position: relative;
     top: 400px;
+    overflow-x: hidden;
+    overflow-y:hidden ;
 }
 .company{
     position: relative;
@@ -86,15 +165,11 @@ color: white;
     display: inline-block;
 }
 .phone{
-    position: relative;
-    left: 72%;
-    top: -20px;
-    display: inline-block;
-justify-content: center;
+visibility: hidden;
 }
 .aboutus{
 position: relative;
-left: 40%;
+left: 60%;
 bottom: 130px;
 font-size: .8rem;
 display: inline-block;
@@ -111,28 +186,26 @@ display: inline-block;
 }
 @media only screen and (max-width: 400px) {
     .footer{
-        height: 240px;
+        height: 120px;
         width: 100%;
         background-color: rgb(26, 27, 26)   ;
         position: relative;
         top: 400px;
+        overflow-x: hidden;
+        overflow-y:hidden ;
     }
     .company{
         position: relative;
-        left: 10px;
+        left: 20px;
         top: 20px;
         display: inline-block;
     }
     .phone{
-        position: relative;
-        left: 65%;
-        top: -20px;
-        display: inline-block;
-    justify-content: center;
+    visibility: hidden;
     }
     .aboutus{
     position: relative;
-    left: 35%;
+    left: 65%;
     bottom: 130px;
     font-size: .8rem;
     display: inline-block;
