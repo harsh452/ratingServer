@@ -61,7 +61,6 @@ function Footer() {
                   CO-Founder<br></br>
                   Developer
                 </p>
-                <p>zaidanwar26@gmail.com</p>
               </Col>
               <Col>
                 <img className="zaid" src={harsh}></img>
@@ -70,7 +69,6 @@ function Footer() {
                   CO-Founder<br></br>
                   Developer
                 </p>
-                <p>hkumar@15985@gmail.com</p>
               </Col>
             </Row>
           </div>
