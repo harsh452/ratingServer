@@ -92,7 +92,7 @@ function Footer() {
           </Col>
           <Col xs lg="2">
             <div className="phone">
-              <img src={call}></img> <h5>+91 329843242</h5>
+              <img src={call}></img> <h5>+91 7728095679</h5>
             </div>
           </Col>
         </Row>
