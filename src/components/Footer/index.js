@@ -87,7 +87,7 @@ function Footer() {
           <Col md="auto">
             {" "}
             <div className="phone">
-              <img src={email}></img> <h5>harsh@12gmail.com</h5>
+              <img src={email}></img> <h5>hkumar15985gmail.com</h5>
             </div>
           </Col>
           <Col xs lg="2">
