@@ -32,16 +32,45 @@ function App() {
   .orderBy("TIME",'asc')
   .limit(1)
   .onSnapshot(querySnapshot => {
-      var ratingData = [];
+
       querySnapshot.forEach((doc) => {
-          ratingData.push( doc.data());
-          serviceRatings = ratingData[0].SERVICE_PROVIDER_ID;
-          star1 = ratingData[0].STAR_1;
-          star2 = ratingData[0].STAR_2;
-          star3 = ratingData[0].STAR_3;
-          star4 = ratingData[0].STAR_4;
-          star5 = ratingData[0].STAR_5;
-          totalRating = star1+star2+star3+star4+star5;
+          
+          serviceRatings = doc.get("SERVICE_PROVIDER_ID");
+          var x = doc.get("rated");
+
+          if(x == 1) {
+            star1 = 1;
+            star2 = 0
+            star3 = 0
+            star4 = 0
+            star5 = 0
+          }
+          if(x == 2) {
+            star1 = 0;
+            star2 = 1
+            star3 = 0
+            star4 = 0
+            star5 = 0}
+            if( x == 3) {
+              star1 = 0;
+              star2 = 0
+              star3 = 1
+              star4 = 0
+              star5 = 0}
+              if(x == 4) {
+                star1 = 0;
+                star2 = 0
+                star3 = 0
+                star4 = 1
+                star5 = 0}
+          if(x == 5) {
+            star1 = 0;
+            star2 = 0
+            star3 = 0
+            star4 = 0
+            star5 = 1
+          }
+          totalRating = 1
           data();
         })
       });  
@@ -114,5 +143,4 @@ setInterval(function(){ window.location.reload(true)
   );
 }
 export default App;
-
 
