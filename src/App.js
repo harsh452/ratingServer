@@ -1,7 +1,8 @@
 import { firestore } from "./firebase";
 import React from "react";
 
-
+setInterval(function(){ window.location.reload(true)
+  ; }, 4000);
 function App() {
   var serviceRatings;
   var star1;
